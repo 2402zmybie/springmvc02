@@ -15,7 +15,22 @@
     <a href="user/testString">testString</a>
 
     <br>
+    <br>
+    <br>
 
     <a href="user/testVoid">testVoid</a>
+
+    <br>
+    <br>
+    <br>
+
+    <a href="user/testModelAndView">testModelAndView</a>
+
+
+    <br>
+    <br>
+    <br>
+
+    <a href="user/testForwardOrRedirect">testForwardOrRedirect</a>
 </body>
 </html>
