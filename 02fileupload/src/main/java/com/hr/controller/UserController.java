@@ -51,6 +51,11 @@ public class UserController {
         return "success";
     }
 
+    /**
+     * SpringMvc提供了MultipartFile对象,该对象表示上传的文件,要求变量名称必须和表单file标签的name属性名称相同
+     *
+     */
+
 
 
 }

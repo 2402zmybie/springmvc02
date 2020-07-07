@@ -24,57 +24,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="929b2291-0471-4436-80dd-9bcbc682056f" name="Default Changelist" comment="ajax请求成功,后端返回json字符串给前端">
-      <change afterPath="$PROJECT_DIR$/02fileupload/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02fileupload/src/main/java/com/hr/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02fileupload/src/main/webapp/WEB-INF/pages/success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/01response_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/01response_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01response/target/01response-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01response/target/01response-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01response/target/01response-1.0-SNAPSHOT/WEB-INF/classes/META-INF/01response.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01response/target/01response-1.0-SNAPSHOT/WEB-INF/classes/com/hr/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01response/target/01response-1.0-SNAPSHOT/WEB-INF/classes/com/hr/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01response/target/01response-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02fileupload/src/main/resources/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01response/target/01response-1.0-SNAPSHOT/WEB-INF/lib/jsp-api-2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01response/target/01response-1.0-SNAPSHOT/WEB-INF/lib/servlet-api-2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01response/target/01response-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.2.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01response/target/01response-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.2.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01response/target/01response-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.2.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01response/target/01response-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.2.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01response/target/01response-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.2.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01response/target/01response-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.2.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01response/target/01response-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.2.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01response/target/01response-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.2.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01response/target/01response-1.0-SNAPSHOT/WEB-INF/pages/success.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01response/target/01response-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01response/target/01response-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/02fileupload/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01response/target/01response-1.0-SNAPSHOT/js/jquery-3.4.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01response/target/01response-1.0-SNAPSHOT/response.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01response/target/classes/com/hr/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01response/target/classes/com/hr/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01response/target/classes/springmvc.xml" beforeDir="false" />
+    <list default="true" id="929b2291-0471-4436-80dd-9bcbc682056f" name="Default Changelist" comment="fileupload包的传统方式实现文件上传">
+      <change afterPath="$PROJECT_DIR$/02fileupload/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02fileupload/src/main/java/com/hr/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/02fileupload/src/main/java/com/hr/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,7 +255,7 @@
       <workItem from="1594103794683" duration="8284000" />
       <workItem from="1594118928564" duration="601000" />
       <workItem from="1594119615753" duration="2776000" />
-      <workItem from="1594123176486" duration="2008000" />
+      <workItem from="1594123176486" duration="3425000" />
     </task>
     <task id="LOCAL-00001" summary="ModelAndView,转发和重定向">
       <created>1594107343360</created>
@@ -318,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594122475627</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fileupload包的传统方式实现文件上传">
+      <created>1594125353626</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594125353627</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +301,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="ModelAndView,转发和重定向" />
     <MESSAGE value="ajax请求成功,后端返回json字符串给前端" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajax请求成功,后端返回json字符串给前端" />
+    <MESSAGE value="fileupload包的传统方式实现文件上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="fileupload包的传统方式实现文件上传" />
   </component>
   <component name="WindowStateProjectService">
     <state x="39" y="0" key="#Project_Structure" timestamp="1594123074249">
@@ -445,10 +406,10 @@
     </state>
     <state x="78" y="0" key="SettingsEditor/0.0.1366.724@0.0.1366.724" timestamp="1594122891652" />
     <state x="280" y="4" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1594109673971" />
-    <state x="179" y="36" key="Vcs.Push.Dialog.v2" timestamp="1594122480479">
+    <state x="179" y="36" key="Vcs.Push.Dialog.v2" timestamp="1594125364927">
       <screen x="0" y="0" width="1366" height="724" />
     </state>
-    <state x="179" y="36" key="Vcs.Push.Dialog.v2/0.0.1366.724@0.0.1366.724" timestamp="1594122480479" />
+    <state x="179" y="36" key="Vcs.Push.Dialog.v2/0.0.1366.724@0.0.1366.724" timestamp="1594125364927" />
     <state x="0" y="0" width="1040" height="724" key="find.popup" timestamp="1594123064993">
       <screen x="0" y="0" width="1366" height="724" />
     </state>
