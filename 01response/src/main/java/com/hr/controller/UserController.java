@@ -3,6 +3,7 @@ package com.hr.controller;
 import com.hr.domain.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -69,5 +70,14 @@ public class UserController {
 //        return "forward:/WEB-INF/pages/success.jsp";
         //重定向
         return "redirect:/index.jsp";
+    }
+
+    /**
+     * 模拟ajax请求
+     */
+    @RequestMapping("/testAjax")
+    public void testAjax(@RequestBody String body) {
+        System.out.println("testAjax....");
+        System.out.println(body);
     }
 }

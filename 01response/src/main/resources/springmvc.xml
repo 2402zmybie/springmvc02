@@ -19,6 +19,11 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
+    <!--前端控制器,哪些静态资源不拦截-->
+    <mvc:resources location="/js/" mapping="/js/**"></mvc:resources>  <!--javascript-->
+    <mvc:resources location="/images/" mapping="/images/**"></mvc:resources>   <!--图片-->
+    <mvc:resources location="/css/" mapping="/css/**"></mvc:resources>   <!--css-->
+
 
 
     <!--开启SpringMVC框架注解的支持器-->
