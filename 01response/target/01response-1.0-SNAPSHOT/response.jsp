@@ -20,11 +20,12 @@
                 $.ajax({
                     url:"user/testAjax",
                     contentType:"application/json;charset=UTF-8",
-                    data: "{'username':'老何','password':'123456','age': 27}",
+                    data: '{"username":"老何","password":"123456","age": 27}',
                     dataType: "json",
                     type: 'post',
                     success: function (data) {
-                        alert(data)
+                        alert(data);
+                        alert(data.username);
                     }
                 })
             })

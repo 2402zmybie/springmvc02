@@ -3,8 +3,10 @@ package com.hr.controller;
 import com.hr.domain.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.ServletException;
@@ -75,9 +77,16 @@ public class UserController {
     /**
      * 模拟ajax请求
      */
-    @RequestMapping("/testAjax")
-    public void testAjax(@RequestBody String body) {
+    @PostMapping("/testAjax")
+    @ResponseBody
+    public User testAjax(@RequestBody User user) {
         System.out.println("testAjax....");
-        System.out.println(body);
+        //客户端传ajax请求,传的是json字符串, 后端把json字符串封装到user对象中
+        System.out.println(user);
+
+        //模拟查询数据库,对客户端做响应, 返回的直接是json字符串
+        user.setUsername("xiaozhang");
+        user.setAge(21);
+        return user;
     }
 }
