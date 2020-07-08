@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/01response" />
     <file type="web" url="file://$PROJECT_DIR$/02fileupload" />
+    <file type="web" url="file://$PROJECT_DIR$/03exception" />
+    <file type="web" url="file://$PROJECT_DIR$/04interceptor" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -10,6 +13,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/02fileupload/pom.xml" />
+        <option value="$PROJECT_DIR$/01response/pom.xml" />
+        <option value="$PROJECT_DIR$/03exception/pom.xml" />
+        <option value="$PROJECT_DIR$/04interceptor/pom.xml" />
       </list>
     </option>
   </component>
