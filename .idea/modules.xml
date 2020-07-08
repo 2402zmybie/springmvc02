@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/02fileupload/02fileupload.iml" filepath="$PROJECT_DIR$/02fileupload/02fileupload.iml" />
       <module fileurl="file://$PROJECT_DIR$/03exception/03exception.iml" filepath="$PROJECT_DIR$/03exception/03exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/04interceptor/04interceptor.iml" filepath="$PROJECT_DIR$/04interceptor/04interceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05ssm/05ssm.iml" filepath="$PROJECT_DIR$/05ssm/05ssm.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springmvc02.iml" filepath="$PROJECT_DIR$/.idea/springmvc02.iml" />
     </modules>
   </component>

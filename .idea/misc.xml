@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/02fileupload" />
     <file type="web" url="file://$PROJECT_DIR$/03exception" />
     <file type="web" url="file://$PROJECT_DIR$/04interceptor" />
+    <file type="web" url="file://$PROJECT_DIR$/05ssm" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -16,6 +17,7 @@
         <option value="$PROJECT_DIR$/01response/pom.xml" />
         <option value="$PROJECT_DIR$/03exception/pom.xml" />
         <option value="$PROJECT_DIR$/04interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/05ssm/pom.xml" />
       </list>
     </option>
   </component>
