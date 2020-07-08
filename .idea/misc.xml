@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/01response" />
     <file type="web" url="file://$PROJECT_DIR$/02fileupload" />
     <file type="web" url="file://$PROJECT_DIR$/fileuploadserver" />
   </component>
@@ -12,6 +13,7 @@
       <list>
         <option value="$PROJECT_DIR$/02fileupload/pom.xml" />
         <option value="$PROJECT_DIR$/fileuploadserver/pom.xml" />
+        <option value="$PROJECT_DIR$/01response/pom.xml" />
       </list>
     </option>
   </component>

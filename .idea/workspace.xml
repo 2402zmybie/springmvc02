@@ -24,33 +24,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="929b2291-0471-4436-80dd-9bcbc682056f" name="Default Changelist" comment="fileupload包的传统方式实现文件上传">
-      <change afterPath="$PROJECT_DIR$/fileuploadserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_7_RELEASE.xml" afterDir="false" />
+    <list default="true" id="929b2291-0471-4436-80dd-9bcbc682056f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fileuploadserver/src/main/webapp/uploads/jquery-3.4.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/02fileupload_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/02fileupload_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02fileupload/02fileupload.iml" beforeDir="false" afterPath="$PROJECT_DIR$/02fileupload/02fileupload.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02fileupload/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02fileupload/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02fileupload/src/main/java/com/hr/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/02fileupload/src/main/java/com/hr/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02fileupload/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02fileupload/src/main/resources/springmvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02fileupload/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/02fileupload/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02fileupload/target/02fileupload-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/02fileupload/target/02fileupload-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02fileupload/target/02fileupload-1.0-SNAPSHOT/WEB-INF/classes/com/hr/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/02fileupload/target/02fileupload-1.0-SNAPSHOT/WEB-INF/classes/com/hr/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02fileupload/target/02fileupload-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02fileupload/target/02fileupload-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02fileupload/target/02fileupload-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/02fileupload/target/02fileupload-1.0-SNAPSHOT/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02fileupload/target/classes/com/hr/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/02fileupload/target/classes/com/hr/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02fileupload/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02fileupload/target/classes/springmvc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,10 +80,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/02fileupload/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fileuploadserver/src/main/webapp/uploads" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -107,17 +95,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Hzhz_SpringCode\springmvc02\fileuploadserver\src\main\webapp\uploads" />
       <recent name="G:\Hzhz_SpringCode\springmvc02\02fileupload\src\main\webapp" />
       <recent name="E:\ProjectCode\springmvc02\02fileupload\src\main\resources" />
       <recent name="G:\Hzhz_SpringCode\springmvc02\01response\src\main\webapp\js" />
       <recent name="G:\Hzhz_SpringCode\springmvc02\01response\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Hzhz_SpringCode\springmvc02\fileuploadserver\src\main\webapp" />
+      <recent name="G:\Hzhz_SpringCode\springmvc02\fileuploadserver\src\main\webapp\WEB-INF" />
       <recent name="G:\Hzhz_SpringCode\springmvc02\01response\src\main\webapp" />
       <recent name="G:\Hzhz_SpringCode\springmvc02\01response\src\main\webapp\WEB-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.fileupload_server">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.56">
     <configuration name="Tomcat 8.5.56" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.56" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
@@ -125,6 +116,11 @@
         <artifact name="02fileupload:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/02fileupload_war_exploded" />
+          </settings>
+        </artifact>
+        <artifact name="fileuploadserver:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/fileuploadserver_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -188,6 +184,7 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="02fileupload:war exploded" />
+          <artifact name="fileuploadserver:war exploded" />
         </option>
       </method>
     </configuration>
@@ -261,22 +258,18 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="01response:war" />
-          <artifact name="02fileupload:war exploded" />
+          <artifact name="fileuploadserver:war exploded" />
         </option>
       </method>
     </configuration>
     <configuration name="fileupload_server" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.56" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:9090/fileuploadserver_war_exploded/" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="01response:war">
+        <artifact name="fileuploadserver:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/01response_war" />
-          </settings>
-        </artifact>
-        <artifact name="02fileupload:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/02fileupload_war_exploded" />
+            <option name="CONTEXT_PATH" value="/fileuploadserver_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -342,7 +335,7 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="01response:war" />
-          <artifact name="02fileupload:war exploded" />
+          <artifact name="fileuploadserver:war exploded" />
         </option>
       </method>
     </configuration>
@@ -365,7 +358,7 @@
       <workItem from="1594118928564" duration="601000" />
       <workItem from="1594119615753" duration="2776000" />
       <workItem from="1594123176486" duration="3425000" />
-      <workItem from="1594172040640" duration="3216000" />
+      <workItem from="1594172040640" duration="11143000" />
     </task>
     <task id="LOCAL-00001" summary="ModelAndView,转发和重定向">
       <created>1594107343360</created>
@@ -388,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594125353627</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="springmvc实现文件上传">
+      <created>1594176417632</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594176417632</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,7 +412,8 @@
     <MESSAGE value="ModelAndView,转发和重定向" />
     <MESSAGE value="ajax请求成功,后端返回json字符串给前端" />
     <MESSAGE value="fileupload包的传统方式实现文件上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="fileupload包的传统方式实现文件上传" />
+    <MESSAGE value="springmvc实现文件上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="springmvc实现文件上传" />
   </component>
   <component name="WindowStateProjectService">
     <state x="39" y="0" key="#Project_Structure" timestamp="1594123074249">
@@ -428,11 +429,11 @@
     </state>
     <state x="422" y="234" key="#Tomcat_Server/0.0.1366.724@0.0.1366.724" timestamp="1594119041831" />
     <state x="494" y="278" key="#Tomcat_Server/0.0.1600.860@0.0.1600.860" timestamp="1594104493806" />
-    <state x="174" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594176339034">
+    <state x="308" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594196320359">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="131" y="9" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.724@0.0.1366.724" timestamp="1594125204320" />
-    <state x="174" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1594176339034" />
+    <state x="308" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1594196320359" />
     <state x="549" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1594121669603">
       <screen x="0" y="0" width="1366" height="724" />
     </state>
@@ -442,92 +443,93 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="443" y="31" width="887" height="742" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1600.860@0.0.1600.860" timestamp="1594104699368" />
-    <state x="380" y="0" key="CommitChangelistDialog2" timestamp="1594107341233">
+    <state x="380" y="0" key="CommitChangelistDialog2" timestamp="1594176415087">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="380" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1594107341233" />
+    <state x="380" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1594176415087" />
     <state x="427" y="98" key="FileChooserDialogImpl" timestamp="1594119033635">
       <screen x="0" y="0" width="1366" height="724" />
     </state>
     <state x="427" y="98" key="FileChooserDialogImpl/0.0.1366.724@0.0.1366.724" timestamp="1594119033635" />
     <state x="500" y="142" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1594104567397" />
-    <state width="1353" height="201" key="GridCell.Tab.0.bottom" timestamp="1594176306472">
+    <state width="1353" height="156" key="GridCell.Tab.0.bottom" timestamp="1594193997576">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1122" height="315" key="GridCell.Tab.0.bottom/0.0.1366.724@0.0.1366.724" timestamp="1594124859414" />
-    <state width="1353" height="201" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1594176306472" />
-    <state width="1353" height="201" key="GridCell.Tab.0.center" timestamp="1594176306472">
+    <state width="1353" height="156" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1594193997576" />
+    <state width="1353" height="156" key="GridCell.Tab.0.center" timestamp="1594193997576">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1122" height="315" key="GridCell.Tab.0.center/0.0.1366.724@0.0.1366.724" timestamp="1594124859414" />
-    <state width="1353" height="201" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1594176306472" />
-    <state width="1353" height="201" key="GridCell.Tab.0.left" timestamp="1594176306472">
+    <state width="1353" height="156" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1594193997575" />
+    <state width="1353" height="156" key="GridCell.Tab.0.left" timestamp="1594193997575">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1122" height="315" key="GridCell.Tab.0.left/0.0.1366.724@0.0.1366.724" timestamp="1594124859414" />
-    <state width="1353" height="201" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1594176306472" />
-    <state width="1353" height="201" key="GridCell.Tab.0.right" timestamp="1594176306472">
+    <state width="1353" height="156" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1594193997575" />
+    <state width="1353" height="156" key="GridCell.Tab.0.right" timestamp="1594193997576">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1122" height="315" key="GridCell.Tab.0.right/0.0.1366.724@0.0.1366.724" timestamp="1594124859414" />
-    <state width="1353" height="201" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1594176306472" />
-    <state width="1353" height="201" key="GridCell.Tab.1.bottom" timestamp="1594176306472">
+    <state width="1353" height="156" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1594193997576" />
+    <state width="1353" height="156" key="GridCell.Tab.1.bottom" timestamp="1594193997576">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1122" height="315" key="GridCell.Tab.1.bottom/0.0.1366.724@0.0.1366.724" timestamp="1594124859159" />
-    <state width="1353" height="201" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1594176306472" />
-    <state width="1353" height="201" key="GridCell.Tab.1.center" timestamp="1594176306472">
+    <state width="1353" height="156" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1594193997576" />
+    <state width="1353" height="156" key="GridCell.Tab.1.center" timestamp="1594193997576">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1122" height="315" key="GridCell.Tab.1.center/0.0.1366.724@0.0.1366.724" timestamp="1594124859159" />
-    <state width="1353" height="201" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1594176306472" />
-    <state width="1353" height="201" key="GridCell.Tab.1.left" timestamp="1594176306472">
+    <state width="1353" height="156" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1594193997576" />
+    <state width="1353" height="156" key="GridCell.Tab.1.left" timestamp="1594193997576">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1122" height="315" key="GridCell.Tab.1.left/0.0.1366.724@0.0.1366.724" timestamp="1594124859159" />
-    <state width="1353" height="201" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1594176306472" />
-    <state width="1353" height="201" key="GridCell.Tab.1.right" timestamp="1594176306472">
+    <state width="1353" height="156" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1594193997576" />
+    <state width="1353" height="156" key="GridCell.Tab.1.right" timestamp="1594193997576">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1122" height="315" key="GridCell.Tab.1.right/0.0.1366.724@0.0.1366.724" timestamp="1594124859159" />
-    <state width="1353" height="201" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1594176306472" />
-    <state width="1353" height="201" key="GridCell.Tab.2.bottom" timestamp="1594176306472">
+    <state width="1353" height="156" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1594193997576" />
+    <state width="1353" height="156" key="GridCell.Tab.2.bottom" timestamp="1594193997576">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1122" height="315" key="GridCell.Tab.2.bottom/0.0.1366.724@0.0.1366.724" timestamp="1594124859160" />
-    <state width="1353" height="201" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1594176306472" />
-    <state width="1353" height="201" key="GridCell.Tab.2.center" timestamp="1594176306472">
+    <state width="1353" height="156" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1594193997576" />
+    <state width="1353" height="156" key="GridCell.Tab.2.center" timestamp="1594193997576">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1122" height="315" key="GridCell.Tab.2.center/0.0.1366.724@0.0.1366.724" timestamp="1594124859159" />
-    <state width="1353" height="201" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1594176306472" />
-    <state width="1353" height="201" key="GridCell.Tab.2.left" timestamp="1594176306472">
+    <state width="1353" height="156" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1594193997576" />
+    <state width="1353" height="156" key="GridCell.Tab.2.left" timestamp="1594193997576">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1122" height="315" key="GridCell.Tab.2.left/0.0.1366.724@0.0.1366.724" timestamp="1594124859159" />
-    <state width="1353" height="201" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1594176306472" />
-    <state width="1353" height="201" key="GridCell.Tab.2.right" timestamp="1594176306472">
+    <state width="1353" height="156" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1594193997576" />
+    <state width="1353" height="156" key="GridCell.Tab.2.right" timestamp="1594193997576">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1122" height="315" key="GridCell.Tab.2.right/0.0.1366.724@0.0.1366.724" timestamp="1594124859160" />
-    <state width="1353" height="201" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1594176306472" />
-    <state x="78" y="0" key="SettingsEditor" timestamp="1594122891652">
-      <screen x="0" y="0" width="1366" height="724" />
+    <state width="1353" height="156" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1594193997576" />
+    <state x="280" y="4" key="SettingsEditor" timestamp="1594196167299">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="78" y="0" key="SettingsEditor/0.0.1366.724@0.0.1366.724" timestamp="1594122891652" />
-    <state x="280" y="4" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1594109673971" />
+    <state x="280" y="4" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1594196167299" />
     <state x="179" y="36" key="Vcs.Push.Dialog.v2" timestamp="1594125364927">
       <screen x="0" y="0" width="1366" height="724" />
     </state>
     <state x="179" y="36" key="Vcs.Push.Dialog.v2/0.0.1366.724@0.0.1366.724" timestamp="1594125364927" />
-    <state x="0" y="0" width="1040" height="724" key="find.popup" timestamp="1594123064993">
-      <screen x="0" y="0" width="1366" height="724" />
+    <state x="0" y="0" width="1219" height="860" key="find.popup" timestamp="1594191844373">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="0" y="0" width="1040" height="724" key="find.popup/0.0.1366.724@0.0.1366.724" timestamp="1594123064993" />
-    <state x="294" y="27" key="new project wizard" timestamp="1594176305496">
+    <state x="0" y="0" width="1219" height="860" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1594191844373" />
+    <state x="294" y="27" key="new project wizard" timestamp="1594193594502">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="0" y="0" key="new project wizard/0.0.1366.724@0.0.1366.724" timestamp="1594123359062" />
-    <state x="294" y="27" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1594176305496" />
+    <state x="294" y="27" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1594193594502" />
   </component>
 </project>
