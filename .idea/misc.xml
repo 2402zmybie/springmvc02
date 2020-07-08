@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/02fileupload" />
+    <file type="web" url="file://$PROJECT_DIR$/fileuploadserver" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -10,6 +11,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/02fileupload/pom.xml" />
+        <option value="$PROJECT_DIR$/fileuploadserver/pom.xml" />
       </list>
     </option>
   </component>
