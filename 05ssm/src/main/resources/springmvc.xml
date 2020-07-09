@@ -27,6 +27,9 @@
     <mvc:resources mapping="/images/**" location="/images/"/>
     <mvc:resources mapping="/js/**" location="/js/"/>
 
+    <!--配置异常管理器-->
+    <bean id="myExceptionResolver" class="com.hr.exception.MyExceptionResolver"/>
+
     <!--开启springmvc注解的支持-->
     <mvc:annotation-driven />
 </beans>

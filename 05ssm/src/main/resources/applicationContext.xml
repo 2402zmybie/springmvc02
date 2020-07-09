@@ -36,6 +36,25 @@
         <property name="basePackage" value="com.hr.dao"/>
     </bean>
 
+    <!--           tx  配置spring框架声明式事务管理               -->
+    <!--配置事务管理器-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="comboPooledDataSource"/>
+    </bean>
+    <!--配置事务通知-->
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+           <!-- propagation指定事务的传播行为, REQUIRED表示一定有事务, isolation表示事务的隔离级别,DEFAULT表示使用数据库的-->
+            <tx:method name="find*" read-only="true" propagation="SUPPORTS" isolation="DEFAULT"/>
+            <tx:method name="*" read-only="false" propagation="REQUIRED" isolation="DEFAULT"/>
+        </tx:attributes>
+    </tx:advice>
+    <!--配置aop增强-->
+    <aop:config>
+        <aop:advisor advice-ref="txAdvice" pointcut="execution(* com.hr.service.impl.*.*(..))"/>
+    </aop:config>
+    <!--           tx  配置spring框架声明式事务管理               -->
+
 
 
 </beans>
