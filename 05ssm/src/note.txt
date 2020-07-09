@@ -1,0 +1,55 @@
+ssm整合:
+    spring整合 springmvc ,spring整合mybatis, spring是业务层, springmvc是表现层, mybatis是持久层
+   1 先配置spring的配置文件, 在resource下命名为 applicationContext.xml
+    spring最全约束头:
+    <?xml version="1.0" encoding="UTF-8"?>
+    <beans xmlns="http://www.springframework.org/schema/beans"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:context="http://www.springframework.org/schema/context"
+           xmlns:aop="http://www.springframework.org/schema/aop"
+           xmlns:tx="http://www.springframework.org/schema/tx"
+           xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd
+           http://www.springframework.org/schema/aop
+           http://www.springframework.org/schema/aop/spring-aop.xsd
+           http://www.springframework.org/schema/tx
+           http://www.springframework.org/schema/tx/spring-tx.xsd">
+    </beans>
+   2 配置springmvc的配置文件
+    2.1 配置web.xml的前端控制器DispatcherServlet,在初始化参数init-params里面加上springmvc的配置文件,让其一启动就加载
+        ,再配置解决中文乱码的过滤器
+    2.2 新建springmvc.xml
+        springmvc最全约束头:
+        <?xml version="1.0" encoding="UTF-8"?>
+        <beans xmlns="http://www.springframework.org/schema/beans"
+               xmlns:mvc="http://www.springframework.org/schema/mvc"
+               xmlns:context="http://www.springframework.org/schema/context"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://www.springframework.org/schema/beans
+               http://www.springframework.org/schema/beans/spring-beans.xsd
+                http://www.springframework.org/schema/mvc
+               http://www.springframework.org/schema/mvc/spring-mvc.xsd
+                http://www.springframework.org/schema/context
+               http://www.springframework.org/schema/context/spring-context.xsd">
+        </beans>
+
+    3 spring整合springmvc
+        目的: 启动Tomcat服务器的时候,需要加载spring的配置文件, 使用ServletContext域对象,服务器启动的时候创建ServletContext对象,关闭时候销毁
+              有一类监听器, 监听ServletContext域对象的创建和销毁, 且服务器启动一次,那么监听回调启动一次,让其加载spring的配置文件,创建Web版的工厂,
+              存储ServletContext对象
+      3.1 在web.xml中配置spring的监听器listener, 这个监听器的类spring已经帮我们实现了, 然后指定spring配置文件applicationContext.xml的路径
+
+    4 mybatis环境搭建
+      4.1 在resource下面新建一个mybatis的配置文件 sqlMapConfig.xml
+      4.2 在dao类中方法上写注解和sql语句即可
+      4.3 spring整合mybatis
+          在spring的配置文件中整合mybatis
+          4.3.1 配置连接池
+          4.3.2 配置SqlSessionFactory工厂
+          4.3.3 配置接口AccountDao所在的包
+          4.3.4 删除mybatis配置文件 sqlMapConfig.xml
+
+
+
